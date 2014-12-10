@@ -7,6 +7,8 @@ NOTE - this example requires apache cassandra version > 2.0 and the cassandra-dr
 This demo shows how to save a large number trades that make up a portfolio. The process involves breaking down 
 the portfolio into sizable chunks to save approx 10,000 trades per row.  
 
+This also shows how to stream data so that if returning 200,000 rows for examples, the data will start streaming back as soon as the one trade returns.
+
 ## Schema Setup
 Note : This will drop the keyspace "datastax_portfolio_demo" and create a new one. All existing data will be lost. 
 
