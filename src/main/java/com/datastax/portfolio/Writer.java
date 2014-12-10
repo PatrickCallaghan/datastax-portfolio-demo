@@ -82,6 +82,16 @@ public class Writer {
 			trade.setText8("text8-" + id);
 			trade.setText9("text9-" + id);
 			trade.setText10("text10-" + id);
+			trade.setText11("text11-" + id);
+			trade.setText12("text12-" + id);
+			trade.setText13("text13-" + id);
+			trade.setText14("text14-" + id);
+			trade.setText15("text15-" + id);
+			trade.setText16("text16-" + id);
+			trade.setText17("text17-" + id);
+			trade.setText18("text18-" + id);
+			trade.setText19("text19-" + id);
+			trade.setText20("text20-" + id);
 			trade.setAsOfDate(new Date());
 
 			trades.add(trade);

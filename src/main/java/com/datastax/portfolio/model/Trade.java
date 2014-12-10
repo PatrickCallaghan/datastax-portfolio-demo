@@ -15,6 +15,16 @@ public class Trade {
 	private String text8;
 	private String text9;
 	private String text10;
+	private String text11;
+	private String text12;
+	private String text13;
+	private String text14;
+	private String text15;
+	private String text16;
+	private String text17;
+	private String text18;
+	private String text19;
+	private String text20;
 	private Date asOfDate;
 
 	public long getTradeId() {
@@ -113,10 +123,92 @@ public class Trade {
 		this.asOfDate = asOfDate;
 	}
 
+	public String getText11() {
+		return text11;
+	}
+
+	public void setText11(String text11) {
+		this.text11 = text11;
+	}
+
+	public String getText12() {
+		return text12;
+	}
+
+	public void setText12(String text12) {
+		this.text12 = text12;
+	}
+
+	public String getText13() {
+		return text13;
+	}
+
+	public void setText13(String text13) {
+		this.text13 = text13;
+	}
+
+	public String getText14() {
+		return text14;
+	}
+
+	public void setText14(String text14) {
+		this.text14 = text14;
+	}
+
+	public String getText15() {
+		return text15;
+	}
+
+	public void setText15(String text15) {
+		this.text15 = text15;
+	}
+
+	public String getText16() {
+		return text16;
+	}
+
+	public void setText16(String text16) {
+		this.text16 = text16;
+	}
+
+	public String getText17() {
+		return text17;
+	}
+
+	public void setText17(String text17) {
+		this.text17 = text17;
+	}
+
+	public String getText18() {
+		return text18;
+	}
+
+	public void setText18(String text18) {
+		this.text18 = text18;
+	}
+
+	public String getText19() {
+		return text19;
+	}
+
+	public void setText19(String text19) {
+		this.text19 = text19;
+	}
+
+	public String getText20() {
+		return text20;
+	}
+
+	public void setText20(String text20) {
+		this.text20 = text20;
+	}
+
 	@Override
 	public String toString() {
 		return "Trade [tradeId=" + tradeId + ", text1=" + text1 + ", text2=" + text2 + ", text3=" + text3 + ", text4="
 				+ text4 + ", text5=" + text5 + ", text6=" + text6 + ", text7=" + text7 + ", text8=" + text8
-				+ ", text9=" + text9 + ", text10=" + text10 + ", asOfDate=" + asOfDate + "]";
-	}
+				+ ", text9=" + text9 + ", text10=" + text10 + ", text11=" + text11 + ", text12=" + text12 + ", text13="
+				+ text13 + ", text14=" + text14 + ", text15=" + text15 + ", text16=" + text16 + ", text17=" + text17
+				+ ", text18=" + text18 + ", text19=" + text19 + ", text20=" + text20 + ", asOfDate=" + asOfDate + "]";
+	}	
 }

@@ -16,6 +16,16 @@ create table if not exists portfolio (
 	text8 text,
 	text9 text,
 	text10 text,
+	text11 text,
+	text12 text,
+	text13 text,
+	text14 text,
+	text15 text,
+	text16 text,
+	text17 text,
+	text18 text,
+	text19 text,
+	text20 text,	
 	asofdate timestamp,
 	PRIMARY KEY ((portfolio_id, chunk_id), trade_id)
 );
