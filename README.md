@@ -19,9 +19,9 @@ To create the a single node cluster with replication factor of 1 for standard lo
 
     mvn clean compile exec:java -Dexec.mainClass="com.datastax.demo.SchemaSetup"
 
-To start the writer, run
+To start the writer with 1 portfolio and 100000 trades, run
 
-    mvn clean compile exec:java -Dexec.mainClass="com.datastax.portfolio.Writer" -DnoOfPortfolios=1000000 -DnoOfTrades=1 
+    mvn clean compile exec:java -Dexec.mainClass="com.datastax.portfolio.Writer" -DnoOfPortfolios=1 -DnoOfTrades=100000
     
 To start the reader, run
 
