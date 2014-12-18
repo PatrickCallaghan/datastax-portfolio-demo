@@ -25,7 +25,7 @@ To start the writer with 1 portfolio and 100000 trades, run
     
 To start the reader, run
 
-    mvn clean compile exec:java -Dexec.mainClass="com.datastax.portfolio.Writer" -DportfolioId=0
+    mvn clean compile exec:java -Dexec.mainClass="com.datastax.portfolio.Reader" -DportfolioId=0
    
    
 The noOfPortfolios, noOfTrades and portfolioId can all be changed. 
